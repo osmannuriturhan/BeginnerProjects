@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lobster", cursive;
+  color: #fff;
+  background-image: url("img/background_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  /* width: 100%; */
+  margin: 50px 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  min-width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.header h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.header h1 span {
+  color: #f00;
+}
+
+.description {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.netflix-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+.personal-info label {
+  display: block;
+  margin-bottom: 5px;
+}
+.personal-info input,
+.personal-info select {
+  padding: 10px;
+  width: 100%;
+}
+.personal-info div {
+  margin-bottom: 10px;
+}
+.movie-type label,
+.movie-type input {
+  margin-left: 10px;
+}
+.movie-type {
+  margin-bottom: 10px;
+}
+.gender label,
+.gender input {
+  margin-left: 10px;
+}
+
+.gender {
+  margin-bottom: 20px;
+}
+
+.movie-type label,
+.gender label {
+  width: 60px;
+  display: inline-block;
+}
+.feedback-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+.feedback-container textarea {
+  width: 100%;
+  padding: 10px;
+}
+.submit {
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: none;
+  background-color: #e50914;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.submit-container {
+  text-align: center;
+  margin-top: 20px;
+}
